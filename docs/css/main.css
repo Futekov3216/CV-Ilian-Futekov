@@ -108,6 +108,18 @@ span.h1wrapper{
 .brakets{
   font-size : 25px;
 }
+/* .projects{
+  margin-top: 27px;
+} */
+.projects img{
+  width: 100%;
+  -webkit-box-shadow: -5px 2px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 2px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: -5px 2px 13px 0px rgba(0,0,0,0.75);
+}
+.projects .col-lg-3{
+    margin-top: 40px;
+}
 /* End fourth section */
 /* Bootstrap overwrite */
 .row{
@@ -124,7 +136,7 @@ span.h1wrapper{
   line-height: 2.3;
   padding-top: 40px;
 }
-.glyphicon-cog{  
+.glyphicon-cog{
   transition: 1s;
 }
 /* End bootstrap overwrite */
