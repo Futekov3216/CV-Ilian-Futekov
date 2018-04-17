@@ -124,6 +124,9 @@ span.h1wrapper{
   line-height: 2.3;
   padding-top: 40px;
 }
+.glyphicon-cog{  
+  transition: 1s;
+}
 /* End bootstrap overwrite */
 /* Media queries */
 @media (max-width: 1200px) {
