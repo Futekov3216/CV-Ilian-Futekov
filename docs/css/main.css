@@ -105,6 +105,9 @@ span.h1wrapper{
   color:hsl(207.7, 56.4%, 45.9%);
   background: white;
 }
+.brakets{
+  font-size : 25px;
+}
 /* End fourth section */
 /* Bootstrap overwrite */
 .row{
@@ -112,6 +115,14 @@ span.h1wrapper{
 }
 .glyphicon {
   color:hsl(14.8, 100%, 61%)
+}
+.interest-list{
+  text-align: left;
+  font-size: 17px;
+  list-style-type: none;
+  padding-left: 72px!important;
+  line-height: 2.3;
+  padding-top: 40px;
 }
 /* End bootstrap overwrite */
 /* Media queries */
@@ -127,6 +138,10 @@ span.h1wrapper{
   }
   .picHelper:nth-child(1){
     float:none;
+  }
+  .interest-list{
+    text-align: center;
+    padding-left: 0px!important;
   }
 }
 /* End  Media queries*/
