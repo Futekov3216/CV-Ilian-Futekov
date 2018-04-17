@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-size: 16px;
+  font-family: 'Mina', sans-serif;
+  background: hsl(201, 49.7%, 67.3%);
+  color: white;
+}
+#particles-js{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+#mainWrapper{
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+  z-index: 5;
+}
+/* First section */
+.firstSection{
+  /* height: 367px; */
+  background: url(../images/bg.jpg) no-repeat center;
+}
+.firstSection h1{
+  font-size: 45px;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+.firstSection h2{
+  color:hsl(14.8, 100%, 61%);
+    text-align: center;
+}
+.firstSection ul{
+  list-style: none;
+}
+
+span.h1wrapper{
+  font-family: 'Orbitron', sans-serif;
+  background: hsla(0, 0%, 0%, 0.3);
+  padding: 0 10px 0 10px;
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+}
+.textAlighn{
+  text-align: center;
+}
+.profilePic{
+  border: 1px solid hsla(0, 0%, 100%, 0.4);
+ border-radius: 121px;
+}
+.pickalight{
+  padding-top: 61px;
+  z-index: 2;
+}
+
+/*End First section */
+/* Second section */
+.picHelper{
+  color: black;
+  background: #f1f1f1;
+  margin-top: -45px;
+  padding:10px 0 10px 0 ;
+  border-bottom: 1px solid hsl(210.6, 58.7%, 48.4%);
+}
+
+.picHelper:nth-child(0){
+  float:left;
+}
+.picHelper:nth-child(1){
+  float:right;
+}
+.picHelper:hover{
+  background: hsl(14.8, 100%, 61%);
+}
+.picHelper:hover a{
+  color: white;
+}
+/* End Secondsection */
+/* Third section */
+.thirdSection{
+  background: white;
+  color:hsl(207.7, 56.4%, 45.9%);
+}
+.thirdSection .row {
+  padding-top: 70px;
+  margin-top: -3px;
+}
+.experience{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  margin-top: 27px;
+  border-left: 5px solid hsl(14.8, 100%, 61%);
+}
+.experience p{
+  margin-left: 58px;
+}
+/* end third section */
+/* Fourth section */
+.fourthSection{
+  padding-top: 70px;
+  color:hsl(207.7, 56.4%, 45.9%);
+  background: white;
+}
+/* End fourth section */
+/* Bootstrap overwrite */
+.row{
+  margin: 0;
+}
+.glyphicon {
+  color:hsl(14.8, 100%, 61%)
+}
+/* End bootstrap overwrite */
+/* Media queries */
+@media (max-width: 1200px) {
+  .pickalight{
+    padding-top:0px;
+  }
+  .picHelper{
+    margin-top: 0px;
+  }
+  .picHelper:nth-child(0){
+    float:none;
+  }
+  .picHelper:nth-child(1){
+    float:none;
+  }
+}
+/* End  Media queries*/
