@@ -139,6 +139,11 @@ span.h1wrapper{
 .glyphicon-cog{
   transition: 1s;
 }
+.orange-words{
+  font-weight: bold;
+  color: hsl(14.8, 100%, 61%);
+  border-bottom: 1px solid hsl(32.1, 100%, 61%);
+}
 /* End bootstrap overwrite */
 /* Media queries */
 @media (max-width: 1200px) {
