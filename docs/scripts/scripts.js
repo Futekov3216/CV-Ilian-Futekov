@@ -2,7 +2,7 @@ $(document).ready(function(){
     let deg = 20;
     $('.carousel').carousel();
     setInterval(function() {
-      deg = deg + 20;
+      deg += 20;
       $('.glyphicon-cog').css({
         transform: 'rotate('+ deg +'deg)'
       });
@@ -21,17 +21,17 @@ $(document).ready(function(){
 
   });
   var today = new Date();
-var dd = today.getDate();
-var mm = today.getMonth()+1; //January is 0!
-var yyyy = today.getFullYear();
-let elem = document.getElementsByClassName('now')[0]
+  var dd = today.getDate();
+  var mm = today.getMonth()  +1; //January is 0!
+  var yyyy = today.getFullYear();
+  let elem = document.getElementsByClassName('now')[0]
 
-if(dd<10) {
-    dd = '0'+dd
+if ( dd < 10 ) {
+    dd = '0'+ dd
 } 
 
-if(mm<10) {
-    mm = '0'+mm
+if( mm < 10 ) {
+    mm = '0'+ mm
 } 
 
 today = dd + '/' + mm + '/' + yyyy;
