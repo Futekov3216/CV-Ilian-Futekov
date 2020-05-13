@@ -26,14 +26,14 @@ $(document).ready(function(){
   var yyyy = today.getFullYear();
   let elem = document.getElementsByClassName('now')[0]
 
-if ( dd < 10 ) {
-    dd = '0'+ dd
-} 
+  if ( dd < 10 ) {
+      dd = '0'+ dd
+  } 
 
-if( mm < 10 ) {
-    mm = '0'+ mm
-} 
+  if( mm < 10 ) {
+      mm = '0'+ mm
+  } 
 
-today = dd + '/' + mm + '/' + yyyy;
-elem.innerHTML = today
-});
+  today = dd + '/' + mm + '/' + yyyy;
+  elem.innerHTML = today
+  });

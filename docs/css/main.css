@@ -7,6 +7,7 @@ body{
   font-family: 'Mina', sans-serif;
   background: hsl(201, 49.7%, 67.3%);
   color: white;
+  overflow-x: hidden;
 }
 #particles-js{
   position: absolute;
@@ -162,6 +163,9 @@ span.h1wrapper{
   .interest-list{
     text-align: center;
     padding-left: 0px!important;
+  }
+  .experience{
+    width: 100%;
   }
 }
 /* End  Media queries*/
