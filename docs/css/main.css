@@ -24,6 +24,7 @@ body{
 .firstSection{
   /* height: 367px; */
   background: url(../images/bg.jpg) no-repeat center;
+  background-size: cover;
 }
 .firstSection h1{
   font-size: 45px;
@@ -51,6 +52,9 @@ span.h1wrapper{
 .profilePic{
   border: 1px solid hsla(0, 0%, 100%, 0.4);
  border-radius: 121px;
+ width: 180px;
+ height: auto;
+ transform: rotate(-23deg);
 }
 .pickalight{
   padding-top: 61px;
